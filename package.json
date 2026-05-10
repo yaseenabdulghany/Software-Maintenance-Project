@@ -1,0 +1,26 @@
+{
+  "name": "software-testing-project-jest",
+  "version": "1.0.0",
+  "description": "beginner-friendly node.js project focused on software testing with jest.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "jest",
+    "testing",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
