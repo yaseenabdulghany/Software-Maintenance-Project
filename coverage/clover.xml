@@ -1,142 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1778373541147" clover="3.2.0">
-  <project timestamp="1778373541147" name="All files">
-    <metrics statements="95" coveredstatements="95" conditionals="42" coveredconditionals="42" methods="28" coveredmethods="27" elements="165" coveredelements="164" complexity="0" loc="95" ncloc="95" packages="5" files="9" classes="9"/>
-    <package name="src">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="app.js" path="/home/yaseen/testing project /src/app.js">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+<coverage generated="1778455834763" clover="3.2.0">
+  <project timestamp="1778455834763" name="All files">
+    <metrics statements="50" coveredstatements="50" conditionals="22" coveredconditionals="21" methods="17" coveredmethods="17" elements="89" coveredelements="88" complexity="0" loc="50" ncloc="50" packages="2" files="2" classes="2"/>
+    <package name="api">
+      <metrics statements="33" coveredstatements="33" conditionals="17" coveredconditionals="16" methods="10" coveredmethods="10"/>
+      <file name="studentApi.js" path="/home/yaseen/student_mangement/src/api/studentApi.js">
+        <metrics statements="33" coveredstatements="33" conditionals="17" coveredconditionals="16" methods="10" coveredmethods="10"/>
+        <line num="5" count="32" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="51" count="27" type="stmt"/>
+        <line num="53" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="74" count="4" type="stmt"/>
+        <line num="75" count="17" type="stmt"/>
+        <line num="77" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="86" count="4" type="stmt"/>
       </file>
     </package>
-    <package name="src.controllers">
-      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-      <file name="user-controller.js" path="/home/yaseen/testing project /src/controllers/user-controller.js">
-        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="10" count="5" type="stmt"/>
-        <line num="11" count="5" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="24" count="3" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="26" count="3" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
-        <line num="40" count="2" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.routes">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="user-routes.js" path="/home/yaseen/testing project /src/routes/user-routes.js">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+    <package name="pages">
+      <metrics statements="17" coveredstatements="17" conditionals="5" coveredconditionals="5" methods="7" coveredmethods="7"/>
+      <file name="AddStudent.jsx" path="/home/yaseen/student_mangement/src/pages/AddStudent.jsx">
+        <metrics statements="17" coveredstatements="17" conditionals="5" coveredconditionals="5" methods="7" coveredmethods="7"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.services">
-      <metrics statements="45" coveredstatements="45" conditionals="21" coveredconditionals="21" methods="18" coveredmethods="17"/>
-      <file name="email-service.js" path="/home/yaseen/testing project /src/services/email-service.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-      </file>
-      <file name="fake-api.js" path="/home/yaseen/testing project /src/services/fake-api.js">
-        <metrics statements="9" coveredstatements="9" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="4"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-      </file>
-      <file name="notification-service.js" path="/home/yaseen/testing project /src/services/notification-service.js">
-        <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="4" count="2" type="cond" truecount="5" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-      </file>
-      <file name="user-store.js" path="/home/yaseen/testing project /src/services/user-store.js">
-        <metrics statements="28" coveredstatements="28" conditionals="13" coveredconditionals="13" methods="12" coveredmethods="11"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="6" count="5" type="stmt"/>
-        <line num="7" count="5" type="stmt"/>
-        <line num="11" count="11" type="cond" truecount="5" falsecount="0"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="21" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="25" count="8" type="stmt"/>
-        <line num="27" count="6" type="stmt"/>
-        <line num="33" count="6" type="stmt"/>
-        <line num="34" count="6" type="stmt"/>
-        <line num="38" count="4" type="stmt"/>
-        <line num="39" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="43" count="3" type="stmt"/>
-        <line num="44" count="3" type="stmt"/>
-        <line num="46" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="47" count="2" type="stmt"/>
-        <line num="51" count="2" type="stmt"/>
-        <line num="52" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="53" count="1" type="stmt"/>
-        <line num="56" count="1" type="stmt"/>
-        <line num="57" count="1" type="stmt"/>
-        <line num="61" count="10" type="stmt"/>
-        <line num="62" count="10" type="stmt"/>
-        <line num="65" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.utils">
-      <metrics statements="19" coveredstatements="19" conditionals="21" coveredconditionals="21" methods="6" coveredmethods="6"/>
-      <file name="basic-utils.js" path="/home/yaseen/testing project /src/utils/basic-utils.js">
-        <metrics statements="10" coveredstatements="10" conditionals="11" coveredconditionals="11" methods="4" coveredmethods="4"/>
-        <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="18" count="4" type="cond" truecount="5" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
-        <line num="22" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="25" count="1" type="stmt"/>
-      </file>
-      <file name="calculator.js" path="/home/yaseen/testing project /src/utils/calculator.js">
-        <metrics statements="9" coveredstatements="9" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-        <line num="2" count="2" type="cond" truecount="4" falsecount="0"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="10" count="3" type="cond" truecount="4" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
       </file>
     </package>
   </project>

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  body {
+    @apply bg-bg dark:bg-bg-dark text-content dark:text-content-dark transition-colors duration-300;
+    margin: 0;
+    min-height: 100vh;
+  }
+  h1, h2, h3, h4 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-primary dark:bg-primary-dark text-white px-5 py-2.5 rounded-lg font-medium hover:bg-primary-hover dark:hover:bg-primary-hover-dark transition-all focus:outline-none focus:ring-2 focus:ring-primary/40 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 bg-surface dark:bg-surface-dark text-content dark:text-content-dark px-5 py-2.5 rounded-lg font-medium hover:bg-surface-hover dark:hover:bg-surface-hover-dark transition-all border border-edge dark:border-edge-dark focus:outline-none focus:ring-2 focus:ring-primary/40;
+  }
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 bg-red-500 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-red-600 transition-all focus:outline-none focus:ring-2 focus:ring-red-400;
+  }
+  .card {
+    @apply bg-white dark:bg-surface-dark border border-edge dark:border-edge-dark rounded-card p-5 shadow-card dark:shadow-card-dark transition-all;
+  }
+  .input-field {
+    @apply w-full px-4 py-2.5 bg-white dark:bg-surface-dark border border-edge dark:border-edge-dark rounded-lg text-content dark:text-content-dark placeholder:text-content-muted dark:placeholder:text-content-muted-dark focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary transition-all;
+  }
+  .badge-active {
+    @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-400;
+  }
+  .badge-inactive {
+    @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-400;
+  }
+  .icon-btn {
+    @apply inline-flex items-center justify-center w-9 h-9 rounded-lg text-content-muted dark:text-content-muted-dark hover:bg-surface dark:hover:bg-surface-hover-dark hover:text-content dark:hover:text-content-dark transition-all focus:outline-none focus:ring-2 focus:ring-primary/40;
+  }
+}

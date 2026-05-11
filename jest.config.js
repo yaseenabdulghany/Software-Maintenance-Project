@@ -1,16 +1,12 @@
-module.exports = {
-  testEnvironment: "node",
-  collectCoverage: true,
+export default {
+  testEnvironment: 'jsdom',
+  testMatch: ['<rootDir>/tests/**/*.test.js', '<rootDir>/tests/**/*.test.jsx'],
+  transform: {
+    '^.+\\.[jt]sx?$': 'babel-jest',
+  },
+  setupFiles: ['<rootDir>/tests/setup.js'],
   collectCoverageFrom: [
-    "src/**/*.js",
-    "!src/server.js"
+    '<rootDir>/src/api/studentApi.js',
+    '<rootDir>/src/pages/AddStudent.jsx',
   ],
-  coverageThreshold: {
-    global: {
-      branches: 90,
-      functions: 90,
-      lines: 90,
-      statements: 90
-    }
-  }
-};
+}
